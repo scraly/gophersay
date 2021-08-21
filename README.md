@@ -1,7 +1,9 @@
 # gophersay
                                                                     
 Welcome in GopherSay!
+
 GopherSay is inspired by Cowsay program.
+
 GopherSay allow you to display a message said by a cute random Gopher.
 
 ## Install
