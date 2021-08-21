@@ -3,9 +3,9 @@
 ##################################################################################
 # gophersay                                                                      #
 #                                                                                #
-# Welcome in GopherSay                                                           #
-# GopherSay is like Coway program                                                #
-# That allow you to display a message say by a cute random Gopher                #
+# Welcome in GopherSay!                                                          #
+# GopherSay is inspired by Cowsay program.                                       #
+# GopherSay allow you to display a message said by a cute random Gopher.         #
 #                                                                                #
 # Usage:                                                                         #
 # ./gophersay <message                                                           #
@@ -59,7 +59,7 @@
 
 ## Usage
 n=$'\n'
-usage="GopherSay is like Coway program.${n}That allow you to display a message say by a cute random Gopher.${n}${n}Usage:${n}   gophersay MESSAGE${n}${n}Example:${n}   gophersay hello Gopher lovers"
+usage="GopherSay is inspired by Cowsay program.${n}GopherSay allow you to display a message said by a cute random Gopher.${n}${n}Usage:${n}   gophersay MESSAGE${n}${n}Example:${n}   gophersay hello Gopher lovers"
 
 # MAIN
 # Usage

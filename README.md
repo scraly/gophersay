@@ -1,12 +1,12 @@
 # gophersay
                                                                     
-Welcome in GopherSay                                                           
-GopherSay is like Coway program                                               
-That allow you to display a message say by a cute random Gopher                
+Welcome in GopherSay!
+GopherSay is inspired by Cowsay program.
+GopherSay allow you to display a message said by a cute random Gopher.
 
 ## Install
 
-You need to put the `gophersay` in your PATH, like this:
+You need to put the `gophersay` in your **PATH**, like this:
 
 ```
 $ cp gophersay.sh /usr/local/bin/gophersay
