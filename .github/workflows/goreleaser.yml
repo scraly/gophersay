@@ -1,13 +1,13 @@
 name: goreleaser
 
-on:
-  pull_request:
-  push:
-
 # on:
+#   pull_request:
 #   push:
-#     tags:
-#       - '*'
+
+on:
+  push:
+    tags:
+      - '*'
 
 jobs:
   goreleaser:
