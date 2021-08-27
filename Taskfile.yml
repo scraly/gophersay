@@ -1,0 +1,19 @@
+version: "3"
+    
+tasks:
+    run: 
+        desc: Run the app
+        cmds:
+        - GOFLAGS=-mod=mod go run main.go
+
+    build:
+        desc: Build the app
+        cmds:
+        - GOFLAGS=-mod=mod go build -o bin/gophersay main.go 
+
+    #TODO: package in docker image
+
+    # generate:
+    #     desc: Generate image to ascii files
+    #     cmds:
+    #     - rm *.png
