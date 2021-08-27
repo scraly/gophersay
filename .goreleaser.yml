@@ -27,3 +27,6 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+# dockers:
+#   - image_templates:
+#     - "scraly/gophersay:{{ .Tag }}"

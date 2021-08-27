@@ -1,16 +1,24 @@
-# gophersay
-                                                                    
+<p align="center">
+  <h3 align="center">GopherSay</h3>
+  <p align="center">
+    <a href="https://github.com/scraly/gophersay/releases/latest"><img alt="GitHub release" src="https://img.shields.io/github/v/release/scraly/gophersay.svg?logo=github&style=flat-square"></a>
+    <a href="https://goreportcard.com/report/github.com/scraly/gophersay"><img src="https://goreportcard.com/badge/github.com/scraly/gophersay" alt="Code Status" /></a>
+  </p>
+</p>
+
+# About
+
 Welcome in GopherSay!
 
 GopherSay is inspired by Cowsay program.
 
 GopherSay allow you to display a message said by a cute random Gopher.
 
-## Pre-requisites
+# Pre-requisites
 
 Install Go in 1.16 version minimum.
 
-## Build the app
+# Build the app
 
 `$ go build -o bin/gophersay main.go`
 
@@ -18,7 +26,7 @@ or
 
 `$ task build`
 
-## Run the app
+# Run the app
 
 `$ ./bin/gophersay`
 
@@ -26,7 +34,7 @@ or
 
 `$ task run`
 
-## Test the app
+# Test the app
 
 ```
 $ ./bin/gophersay Hello Gopher lovers!
