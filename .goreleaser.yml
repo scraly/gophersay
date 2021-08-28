@@ -27,6 +27,18 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+brews:
+- name: tools
+  # goarm: 6
+  github:
+    owner: scraly
+    name: homebrew-tools
+    # folder: Formula
+  homepage: https://github.com/scraly/homebrew-tools
+  tap:
+    owner: scraly
+    name: homebrew-tools
+
 # dockers:
 #   - image_templates:
 #     - "scraly/gophersay:{{ .Tag }}"

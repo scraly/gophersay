@@ -43,7 +43,7 @@ func main() {
 
 		// Generate a random integer depending on get the number of ascii files
 		rand.Seed(time.Now().UnixNano())
-		randInt := rand.Intn(getNbOfGopherFiles())
+		randInt := rand.Intn(getNbOfGopherFiles() - 1)
 
 		// Display random gopher asii embed files
 		fileData, err := embedGopherFiles.ReadFile("gophers/gopher" + strconv.Itoa(randInt) + ".txt")

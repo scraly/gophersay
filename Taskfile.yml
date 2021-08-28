@@ -11,9 +11,12 @@ tasks:
         cmds:
         - GOFLAGS=-mod=mod go build -o bin/gophersay main.go 
 
-    #TODO: package in docker image
+    clean:
+        desc: Build the app
+        cmds:
+        - rm -rf dist 
 
     # generate:
     #     desc: Generate image to ascii files
     #     cmds:
-    #     - rm *.png
+    #     - TODO
