@@ -34,6 +34,7 @@ brews:
   tap:
     owner: scraly
     name: homebrew-tools
+    token: "{{ .Env.GH_GORELEASER }}"
 # dockers:
 #   - image_templates:
 #     - "scraly/gophersay:{{ .Tag }}"
