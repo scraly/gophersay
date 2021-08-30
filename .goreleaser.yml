@@ -28,13 +28,12 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-- name: tools
+- name: gophersay
   # goarm: 6
   homepage: https://github.com/scraly/homebrew-tools
   tap:
     owner: scraly
     name: homebrew-tools
-    # token: "{{ .Env.GH_GORELEASER }}"
 # dockers:
 #   - image_templates:
 #     - "scraly/gophersay:{{ .Tag }}"
