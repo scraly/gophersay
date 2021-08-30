@@ -14,6 +14,15 @@ GopherSay is inspired by Cowsay program.
 
 GopherSay allow you to display a message said by a cute random Gopher.
 
+# Installation
+
+For MacOS:
+
+```
+brew tap scraly/tools
+brew install gophersay
+```
+
 # Pre-requisites
 
 Install Go in 1.16 version minimum.
