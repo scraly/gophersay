@@ -19,8 +19,7 @@ GopherSay allow you to display a message said by a cute random Gopher.
 For MacOS:
 
 ```
-brew tap scraly/tools
-brew install gophersay
+brew install scraly/tools/gophersay
 ```
 
 # Pre-requisites
