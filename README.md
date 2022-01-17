@@ -88,3 +88,7 @@ $ ./bin/gophersay Hello Gopher lovers!
                *@ #   ..*.......................*   /# &        @/////
                #       #                     .(  *###  (
 ```
+
+# CI/CD
+
+This GitHub repository have a GitHub action that create a release thanks to go-releaser.
